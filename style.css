@@ -11,7 +11,7 @@
 :root {
     --cor-primaria: #FFD700;
     --cor-secundaria: #FFA500;
-    --cor-terciaria: #23ff1f;
+    --cor-terciaria: #ff0000;
 
 }
 
@@ -20,7 +20,7 @@ body{
     width: 100%;
     height: 100vh;
 
-    background-color: #88888870;
+    background-color: #2c737970;
 
     display: flex;
     align-items: center;
@@ -49,7 +49,7 @@ body{
 }
 
 /* imagem */
-.foto{
+.foto img{
     width: 250px;
      height: 250px; 
 
@@ -58,7 +58,7 @@ body{
     transition: 0.5s;
 }
 
-.foto:hover {
+.foto img:hover {
     box-shadow: 0 0 10px var(--cor-terciaria);
     cursor: pointer;
     transform: scale(1.05);
@@ -68,4 +68,25 @@ label{
     font-size: 2rem;
     font-weight: bold;
     color: var(--cor-terciaria);
+}
+
+/* redes sociais */
+.redes-sociais{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1.5rem;
+}
+
+.redes-sociais img{
+    width: 30px;
+    transition: 0.5s;
+
+}
+
+.redes-sociais img:hover{
+    transform: scale(1.10);
 }
